@@ -14,14 +14,19 @@
 
 \ProvidesClass{resume}[2010/07/10 v0.9 Resume class]
 
-\LoadClass[11pt,letterpaper]{article}
+\LoadClass[11pt,a4]{article}
 
 \usepackage[parfill]{parskip}       % Do not indent paragraphs
 \usepackage{array}                  % required for boldface tabular columns
 \usepackage{ifthen}
 
+\usepackage[official]{eurosym}
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry}
+
+\usepackage{graphicx}               % for pictures
+\usepackage{hyperref}               % for urls
+\usepackage{float}                  % for positioning figures
 \nofiles                            % .aux files are not needed for resumes
-\pagestyle{empty}                   % resumes do not need page numbers
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -39,7 +44,7 @@
 
 \def \addressSep {$\diamond$}         % Set default address seperator
 
-% One or two address lines can be specified 
+% One or two address lines can be specified
 \let \@addressone \relax
 \let \@addresstwo \relax
 
