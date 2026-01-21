@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @jahwag
 - 👀 I’m a freelance Software Developer residing in Stockholm, Sweden
-- 📫 Looking for my [CV](https://github.com/jahwag/cv)?
+- 📫 Looking for my [CV](https://jahwag.github.io/jahwag/Jahziah_Wagner_CV_EN.pdf)?
 - For professional inquiries see my [LinkedIn](https://www.linkedin.com/in/jahziahwagner/) profile
 - Have a great day!
